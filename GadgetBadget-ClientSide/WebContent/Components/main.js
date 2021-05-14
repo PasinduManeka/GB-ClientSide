@@ -12,22 +12,22 @@ $(document).ready(function(){
 function validationFundForm(){
 	//code
 	if($("#cartid").val().trim()==""){
-		return "insert the item code.";
+		return "insert the Cart ID.";
 	}
 	
 	//name
 	if($("#name").val().trim() == ""){
-		return "Insert the item name";
+		return "Insert the Reseacrcher Name.";
 	}
 	
 	//price
 	if($("#amount").val().trim()==""){
-		return "Insert a numeric value for item price";
+		return "Insert a numeric value for Invest amount.";
 	}
 	
 	//description
 	if($("#description").val().trim() == ""){
-		return "Insert the item description";
+		return "Insert the description";
 	}
 	
 	return true;
