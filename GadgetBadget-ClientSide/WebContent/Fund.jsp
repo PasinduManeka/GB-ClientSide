@@ -37,7 +37,7 @@
 				
 				<input type="button" id="bntSave" name="bntSave" value="Save" class="btn btn-outline-success"><br>
 				
-				<input type="hidden" id="hidIDFundIDSave" name="hidIDItemIDSave" value="">
+				<input type="hidden" id="hidIDFundIDSave" name="hidIDFundIDSave" value="">
 			</form><br>
 			<!-- end the form -->
 			<!--  Display the HTML table -->
